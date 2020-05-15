@@ -1,3 +1,3 @@
 # rg350_unmountfs
-Developing tool to umount opks from /mnt folder.
+Developing tool for RG350 console to umount opks from /mnt folder.
 
