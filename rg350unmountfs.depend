@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1589567465 source:/home/rafa/GitHub___/rg350_unmountfs/src/main.cpp
+	<sys/stat.h>
+	<fstream>
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+	<stdio.h>
+	<fcntl.h>
+	<unistd.h>
+	<stdlib.h>
+	<dirent.h>
+	<sys/mount.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_gfxPrimitives.h>
+	<SDL/SDL_version.h>
+

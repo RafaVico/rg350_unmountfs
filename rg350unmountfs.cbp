@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rg350unmountfs" />
+		<Option pch_mode="0" />
+		<Option compiler="wiz" />
+		<Build>
+			<Target title="GCWZero">
+				<Option output="rg350unmountfs" prefix_auto="0" extension_auto="0" />
+				<Option object_output=".obj/gcwzero" />
+				<Option type="1" />
+				<Option compiler="gcwzero" />
+				<Option use_console_runner="0" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-O2 -std=c++11" />
+					<Add option="-DPLATFORM_LINUX" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lSDL_gfx -lSDL_mixer -lSDL_ttf -lfreetype -lz -lSDL" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="GCWZero;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-O2" />
+			<Add option="-O1" />
+			<Add option="-O" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+		</Linker>
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
