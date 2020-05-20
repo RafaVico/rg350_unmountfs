@@ -834,7 +834,7 @@ void update_menu()
   }
   if(mainjoystick.button_a && opk_list.size()>0)
   {
-    umount(std::string("/mnt/"+opk_list[list_selection]).c_str());
+    umount2(std::string("/mnt/"+opk_list[list_selection]).c_str(),MNT_FORCE);
     umount_opk=opk_list[list_selection];
     umount_time=SDL_GetTicks();
     program_mode=PROGRAM_MODE_UNMOUNTING;
